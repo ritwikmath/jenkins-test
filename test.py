@@ -6,7 +6,7 @@ class FirstUnittest(unittest.TestCase):
         num1 = 10
         num2 = 20
         result = addition(num1, num2)
-        self.assertEqual(result, num1 + num2)
+        self.assertEqual(result, num2 + num1)
 
 if __name__ == "__main__":
     unittest.main()
