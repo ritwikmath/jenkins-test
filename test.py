@@ -12,7 +12,7 @@ class FirstUnittest(unittest.TestCase):
         num1 = 20
         num2 = 10
         result = substraction(num1, num2)
-        self.assertEqual(result, num1 - num2)
+        self.assertEqual(result, num2 - num1)
 
 if __name__ == "__main__":
     unittest.main()
