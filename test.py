@@ -9,8 +9,8 @@ class FirstUnittest(unittest.TestCase):
         self.assertEqual(result, num1 + num2)
     
     def test_minus(self):
-        num1 = 20
-        num2 = 10
+        num1 = 10
+        num2 = 20
         result = substraction(num1, num2)
         self.assertEqual(result, num2 - num1)
 
