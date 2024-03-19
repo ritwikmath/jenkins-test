@@ -1,5 +1,10 @@
-def addition(num1, num2):
-    return int(num1) + int(num2)
+from flask import Flask
 
-def substraction(num1, num2):
-    return int(num1) - int(num2)
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
+if __name__ == '__main__':
+    app.run()
